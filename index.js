@@ -7,6 +7,7 @@ const client = new Client({
 
 const fs = require('fs');
 const path = require('path');
+const keepalive = require('./keepa;')
 
 client.commands = new Collection();
 
